@@ -1,0 +1,10 @@
+let a = Math.floor(Math.random() * 90 + 10);
+let b = Math.floor(Math.random() * 90 + 10);
+let c = Math.floor(Math.random() * 90 + 10);
+let d = Math.floor(Math.random() * 90 + 10);
+let e = Math.floor(Math.random() * 90 + 10);
+let sum = a + b + c + d + e;
+let average = sum / 5;
+console.log(sum);
+console.log("Sum of " + a, b, c, d, e + " is " + sum);
+console.log("Average of " + a, b, c, d, e + " is " + average);
